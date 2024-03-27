@@ -1,1 +1,35 @@
-/* # Testing branch 2 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, red, blue);
+  background-color: brown;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
